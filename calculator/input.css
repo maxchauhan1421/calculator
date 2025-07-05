@@ -17,7 +17,7 @@ html,body{
        height: 600px;
        border: 2px solid white;
        margin-top: 15rem;
-
+        border-radius: 0.6rem; 
        }
 input{
     width: 21rem;
@@ -26,15 +26,19 @@ input{
     height: 3rem;
     font-weight: 900;
     font-size: 2rem;
+    
+    background-color:rgb(210, 203, 192)  ;     /* navajowhite; */
 }
 button{
     width: 5rem;
     height: 5rem;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     color: black;
-    margin-left: 1rem;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.6rem;
     cursor: pointer;
+    margin-left: 1.5rem;
+    background-color: antiquewhite;
+    border-radius: 2.5rem;
 }
 

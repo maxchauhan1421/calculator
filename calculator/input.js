@@ -10,7 +10,7 @@ for(let button of buttons){
       document.querySelector('input').value = string;
    }
 
-   else if(button.innerHTML=='CE'){
+   else if(button.innerHTML=='AC'){
       string='';
        document.querySelector('input').value = string;
    }

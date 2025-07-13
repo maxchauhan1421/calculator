@@ -28,6 +28,7 @@ html,body{
     font-size: 1.5rem;
     text-align: left; 
     padding-left: 3px; 
+    border-radius: 0.4rem;
 } 
 
 .result{

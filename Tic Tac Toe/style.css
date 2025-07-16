@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ddd;
+}
+body{
+    background-color:rgb(72,47,96);  
+    text-align: center;    
+}
+.main{
+    height: 30vh;
+    width: 100vw;
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+      margin-top: 2rem;
+    
+}
+
+.container{
+    height:30vh;
+    width: 20vw;
+   /* border: 6px solid wheat; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.6rem;
+}
+
+.button{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 2rem;
+    color: black;
+    cursor: pointer;
+    font-size: 5rem;
+}
+#Reset{
+    color: black;
+    margin-top: 2rem;
+   height: 3rem;
+   width: 7rem;
+   font-size: 1.6rem;
+   border-radius: 10px;
+   cursor: pointer;
+}

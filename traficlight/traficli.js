@@ -5,14 +5,14 @@ let green=document.querySelector('#green');
 let color='1'
 
             //red/////
-red.style.backgroundColor=' red ';
+red.style.backgroundColor=' #ff0000 ';
 setTimeout(()=>{
   red.style. backgroundColor='transparent';
 },3000); 
             // yellow//
 yellow.style. backgroundColor='transparent';
 setTimeout(()=>{
-    yellow.style. backgroundColor='yellow';
+    yellow.style. backgroundColor='#ffff00';
 },3000);
 setTimeout(()=>{
   yellow.style. backgroundColor='transparent';
@@ -22,7 +22,7 @@ setTimeout(()=>{
 
 green.style. backgroundColor=' transparent ';
 setTimeout(()=>{
-     green.style. backgroundColor='green';
+     green.style. backgroundColor='#008000';
 },12000);
 green.style. backgroundColor=' transparent ';
 

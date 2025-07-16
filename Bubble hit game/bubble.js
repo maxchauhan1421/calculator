@@ -51,10 +51,13 @@ function CreateBubboles(){
     var clickNum = Number(detail.target.textContent);
     if(clickNum === rn)
       {
-        console.log('khushi')
+      
          Score();
          getnewHit(); 
          CreateBubboles();
+    }
+    else{
+       CreateBubboles(); 
     }
   });
 

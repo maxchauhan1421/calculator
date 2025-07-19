@@ -1,11 +1,18 @@
-var blackeyes = document.querySelector('.black');
+var blackeyes = document.querySelectorAll('.black');
 var main = document.querySelector('.main')
 console.log(blackeyes);
+var body = document.querySelector('body');
 
-main.addEventListener('mousemove',(dets)=>{
-   blackeyes.style.left = dets.x+'px';
-   blackeyes.style.top = dets.y+'px';
+
+blackeyes.forEach((val)=>{
+  body.addEventListener('mousemove',(dets)=>{
+   body.style.left = dets.x+'px';
+   console.log(val)
+  })
 })
+
+
+
 
 
 

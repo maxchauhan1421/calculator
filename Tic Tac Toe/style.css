@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #ddd;
-}
+    /* color: #ddd;
+ */}
 body{
     background-color:rgb(72,47,96);  
     text-align: center;    
@@ -20,14 +20,12 @@ body{
 
 .container{
     height:30vh;
-    width: 20vw;
-   /* border: 6px solid wheat; */
+    width: 20vw;                      /* width: 40vw; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2.6rem;
+     gap: 2.6rem; 
 }
-
 .button{
     height: 8rem;
     width: 8rem;
@@ -36,12 +34,38 @@ body{
     cursor: pointer;
     font-size: 5rem;
 }
-#Reset{
-    color: black;
-    margin-top: 2rem;
-   height: 3rem;
-   width: 7rem;
+#Reset,#new{
+    background-color: black;
+    color: #ddd;
+    margin-top: 3rem; 
+   height: 5rem;
+   width:15rem;
    font-size: 1.6rem;
    border-radius: 10px;
    cursor: pointer;
+   border-radius: 1rem;
+ 
+}
+.msg-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(241, 228, 192);
+   /*  border: 2px solid wheat; */
+   color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#msg{
+   font-size: 19rem;
+    
+}
+.hide{
+     display: none;  
+} 
+
+
+@media (min-width : 320px) {
+    
 }
